@@ -44,7 +44,6 @@
 		E9354DE41D9B662E00D613B2 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E9354DCD1D9B662E00D613B2 /* NSObject+MJProperty.m */; };
 		E9354DE51D9B662E00D613B2 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E9354DCE1D9B662E00D613B2 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9354DE61D9B662E00D613B2 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E9354DCF1D9B662E00D613B2 /* NSString+MJExtension.m */; };
-		E9354DE81D9B67E400D613B2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E9354DE71D9B67E400D613B2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -247,7 +246,7 @@
 		E9354D8F1D9B62A100D613B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "思源";
 				TargetAttributes = {
 					E9354D971D9B62A100D613B2 = {
@@ -330,7 +329,6 @@
 				E9354DE01D9B662E00D613B2 /* NSObject+MJCoding.m in Sources */,
 				E9354DE41D9B662E00D613B2 /* NSObject+MJProperty.m in Sources */,
 				E9354DDE1D9B662E00D613B2 /* NSObject+MJClass.m in Sources */,
-				E9354DE81D9B67E400D613B2 /* README.md in Sources */,
 				E9354DD81D9B662E00D613B2 /* MJProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +370,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -423,6 +422,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -551,6 +551,7 @@
 				E9354DAE1D9B62A100D613B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9354DAF1D9B62A100D613B2 /* Build configuration list for PBXNativeTarget "MJExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +560,7 @@
 				E9354DB11D9B62A100D613B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9354DB31D9B62EB00D613B2 /* Build configuration list for PBXAggregateTarget "MJExtensionAgg" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +569,7 @@
 				E9354DB51D9B62EB00D613B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
