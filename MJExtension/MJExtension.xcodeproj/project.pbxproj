@@ -63,7 +63,6 @@
 		E9354DA11D9B62A100D613B2 /* MJExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9354DA61D9B62A100D613B2 /* MJExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJExtensionTests.m; sourceTree = "<group>"; };
 		E9354DA81D9B62A100D613B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9354DB81D9B662E00D613B2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E9354DBC1D9B662E00D613B2 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
 		E9354DBD1D9B662E00D613B2 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
 		E9354DBE1D9B662E00D613B2 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
@@ -127,7 +126,6 @@
 		E9354D9A1D9B62A100D613B2 /* MJExtension */ = {
 			isa = PBXGroup;
 			children = (
-				E9354DB71D9B662E00D613B2 /* doc */,
 				E9354DB91D9B662E00D613B2 /* MJExtension */,
 				E9354D9B1D9B62A100D613B2 /* MJExtension.h */,
 				E9354D9C1D9B62A100D613B2 /* Info.plist */,
@@ -143,14 +141,6 @@
 				E9354DA81D9B62A100D613B2 /* Info.plist */,
 			);
 			path = MJExtensionTests;
-			sourceTree = "<group>";
-		};
-		E9354DB71D9B662E00D613B2 /* doc */ = {
-			isa = PBXGroup;
-			children = (
-				E9354DB81D9B662E00D613B2 /* README.md */,
-			);
-			path = doc;
 			sourceTree = "<group>";
 		};
 		E9354DB91D9B662E00D613B2 /* MJExtension */ = {
@@ -251,7 +241,7 @@
 				TargetAttributes = {
 					E9354D971D9B62A100D613B2 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					E9354DA01D9B62A100D613B2 = {
 						CreatedOnToolsVersion = 8.0;
@@ -455,6 +445,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -476,6 +467,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
